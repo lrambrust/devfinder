@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -35,8 +36,57 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main>
 
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img srv="" alt="" />
+              <div className="user-info">
+                <strong>Lucas Ambrust</strong>
+                <span>.NET, Javascript, ReactJS</span>
+              </div>
+            </header>
+            <p>Software programmer for 7shifts: Restaurant Scheduling</p>
+            <a href="https://github.com/lrambrust">Acessar perfil no GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img srv="" alt="" />
+              <div className="user-info">
+                <strong>Lucas Ambrust</strong>
+                <span>.NET, Javascript, ReactJS</span>
+              </div>
+            </header>
+            <p>Software programmer for 7shifts: Restaurant Scheduling</p>
+            <a href="https://github.com/lrambrust">Acessar perfil no GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img srv="" alt="" />
+              <div className="user-info">
+                <strong>Lucas Ambrust</strong>
+                <span>.NET, Javascript, ReactJS</span>
+              </div>
+            </header>
+            <p>Software programmer for 7shifts: Restaurant Scheduling</p>
+            <a href="https://github.com/lrambrust">Acessar perfil no GitHub</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img srv="" alt="" />
+              <div className="user-info">
+                <strong>Lucas Ambrust</strong>
+                <span>.NET, Javascript, ReactJS</span>
+              </div>
+            </header>
+            <p>Software programmer for 7shifts: Restaurant Scheduling</p>
+            <a href="https://github.com/lrambrust">Acessar perfil no GitHub</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
