@@ -1,7 +1,7 @@
 const socketio = require('socket.io');
 
 const parseStringAsArray = require('./utils/parseStringAsArray');
-const calculateDistance = require('./utils/calculateDistance');
+const calculateDistance = require('./models/utils/calculateDistance');
 
 const connections = [];
 
